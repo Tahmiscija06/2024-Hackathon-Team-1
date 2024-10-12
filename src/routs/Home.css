@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px 20px;
+  background-color: #163020;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #eef0e5;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 100px;
+}
+
+.navbar li {
+  font-size: 20px;
+  color: #eef0e5;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  color: #000;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px; /* Adjust margin to place it below the navbar */
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #ddd;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #163020;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+p {
+  font-size: 12px;
+  color: red;
+}
